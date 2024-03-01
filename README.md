@@ -1,6 +1,6 @@
 # cryptomining
 
-this helps you mine crypto
+Simple script that helps you find crypto wallet. This is just a simulation.
 
 
 Set up for Termux
