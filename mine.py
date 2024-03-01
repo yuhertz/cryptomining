@@ -9,12 +9,11 @@ def find_crypto_wallet():
         if validate_wallet(wallet_type, private_key):
             print(f"Found {wallet_type} wallet with private key: {private_key}")
             # Printing one at a time
-            print("---------------------------------------------------------------------------------------------------------------")
+           
             time.sleep(1)
             for _ in range(10):
                 print(f"Found {wallet_type} wallet revealed: {generate_random_key()}")
                 time.sleep(0.5)
-                print("---------------------------------------------------------------------------------------------------------------")
             # Let's take a break, don't wanna overload the console
             time.sleep(1)
 
